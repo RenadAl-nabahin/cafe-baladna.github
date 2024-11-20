@@ -1,0 +1,215 @@
+/* 
+The Name : HTML;
+Date : Novembar 2024;
+Description : Learn Bacis HTML and CSS;
+Version : 1.0;
+Author : Renad Al-nabahin;
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 90%;
+    margin: 10px auto;
+    clear: both;
+}
+
+
+
+/* ************ header  ************ */
+header {
+    color: black;
+    background-color: rgb(242, 161, 161);
+    display: inline-block;
+    position: fixed;
+    width: 90%;
+    z-index: 10;
+}
+
+header .log {
+    float: left;
+    width: 30%;
+}
+
+header .log h1 {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+header nav {
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 13px 3px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background-color: rgb(67, 65, 65);
+}
+
+
+
+/* ************ Landing section  ************ */
+
+.home {
+    background-image: url(../images/كافيه.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    position: relative;
+}
+
+.home .home-content {
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+.home .home-content h1 {
+    color: black;
+    font-size: 90px;
+    font-style: oblique;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.home .home-content p {
+    color: #570202;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* ************ services  ************ */
+
+.services {
+    margin-top: 50px;
+}
+
+.title {
+    color: #f83939;
+    text-align: center;
+    font-size: 50px;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(246, 65, 65);
+    margin: auto;
+}
+
+.desc {
+    text-align: center;
+    color: gray;
+    margin-top: 16px;
+}
+
+.card-item {
+    margin-top: 16px;
+    float: left;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(142, 138, 138);
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.card-item:hover {
+    background-color: rgb(160, 182, 248);
+}
+
+.card-item p {
+    text-align: center;
+}
+
+.mg {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card-titel {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* ************ Forms  ************ */
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 90%;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 50px;
+    background-color: rgba(146, 60, 60, 0.63);
+    color: white;
+}
+
+
+
+/* ************ footer  ************ */
+
+footer {
+    color: black;
+    margin-top: 50px;
+    background: #5857577c;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .map {
+    margin: 10px auto;
+    max-width: 500px;
+}
